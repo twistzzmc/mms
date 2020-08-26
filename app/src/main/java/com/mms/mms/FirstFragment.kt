@@ -33,7 +33,9 @@ class FirstFragment : Fragment() {
         }
 
         view.findViewById<Button>(R.id.button_sign_up).setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SignUpFragment)
+            val intent = Intent(this@FirstFragment.context, SignUpActivity::class.java)
+            startActivity(intent)
+//            findNavController().navigate(R.id.action_FirstFragment_to_SignUpFragment)
         }
     }
 }
