@@ -1,6 +1,7 @@
 package com.mms.mms
 
 import android.os.Bundle
+import android.util.Log
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
@@ -47,6 +48,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun handleSettings() {
+        Log.d("xf", "xd")
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Androidly Alert")
         builder.setMessage("Open settings")
