@@ -3,9 +3,8 @@ package com.mms.mms
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.Button
-import android.widget.CheckBox
-import android.widget.Toast
+import android.widget.*
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.Navigation.findNavController
 import com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -15,12 +14,6 @@ class SignUpActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
-
-//        findViewById<CheckBox>(R.id.check_box).setOnClickListener {
-//            Log.d("test", "test")
-//        Toast.makeText(this, "Ehh", Toast.LENGTH_SHORT).show()
-//        finish()
-//        }
     }
 
     fun toastPopUp(view: View) {
@@ -34,6 +27,30 @@ class SignUpActivity : AppCompatActivity() {
 
     fun finishActivity(view: View) {
         finish()
-        setContentView(R.layout.fragment_sign_up)
+    }
+
+    fun submit(view: View) {
+        val login: TextView = findViewById(R.id.edit_text_enter_login_sign_up)
+        val login_text = login.text
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle("Androidly Alert")
+        builder.setMessage("Login gut: $login_text")
+        //builder.setPositiveButton("OK", DialogInterface.OnClickListener(function = x))
+
+        builder.setPositiveButton(android.R.string.yes) { dialog, which ->
+            Toast.makeText(applicationContext,
+                android.R.string.yes, Toast.LENGTH_SHORT).show()
+        }
+
+        builder.setNegativeButton(android.R.string.no) { dialog, which ->
+            Toast.makeText(applicationContext,
+                android.R.string.no, Toast.LENGTH_SHORT).show()
+        }
+
+        builder.setNeutralButton("Maybe") { dialog, which ->
+            Toast.makeText(applicationContext,
+                "Maybe", Toast.LENGTH_SHORT).show()
+        }
+        builder.show()
     }
 }
