@@ -13,6 +13,7 @@
     <!--  Strings for Account  -->
     <string name="login">Login</string>
     <string name="sign_up">Sign up</string>
+    <string name="no_thank_you">No thank you</string>
 
     <string name="hello_sign_up">Hello! Do you wish to Sign Up?</string>
 </resources>

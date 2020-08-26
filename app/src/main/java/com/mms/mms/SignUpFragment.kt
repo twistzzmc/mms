@@ -15,14 +15,14 @@ class SignUpFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.)
+        return inflater.inflate(R.layout.fragment_sign_up, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        view.findViewById<Button>(R.id.button_login).setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+        view.findViewById<Button>(R.id.button_no_thank_you).setOnClickListener {
+            findNavController().navigate(R.id.action_SignUpFragment_to_FirstFragment)
         }
     }
 }
