@@ -19,4 +19,10 @@
     <string name="hello_sign_up">Hello! Do you wish to Sign Up?</string>
     <string name="ready_to_login">"Ready to login? "</string>
     <string name="reset_password">Reset password</string>
+    <string name="user_name_hint">User name</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="enter_email">Enter email address</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="agree_to_terms_amp_conditions"><![CDATA[Agree to Terms & Conditions]]></string>
 </resources>

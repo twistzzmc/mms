@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
     tools:context=".SignUpActivity">
 
     <TextView
@@ -13,34 +15,59 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/hello_sign_up"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.235" />
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"/>
 
     <EditText
-        android:id="@+id/edit_text_enter_login_sign_up"
+        android:id="@+id/et_user_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/login"
+        android:hint="@string/user_name"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@id/check_box"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_sign_up" />
+        android:layout_gravity="center"
+        android:autofillHints="@string/user_name_hint" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:autofillHints="@string/enter_email" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:autofillHints="@string/password" />
+
+    <EditText
+        android:id="@+id/et_repeat_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/repeat_password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:autofillHints="@string/password"
+        android:layout_marginBottom="15dp"/>
 
     <CheckBox
-        android:id="@+id/check_box"
+        android:id="@+id/cb_terms_and_conditions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="toastPopUp"
-        app:layout_constraintBottom_toTopOf="@id/button_no_thank_you"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edit_text_enter_login_sign_up" />
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="@string/agree_to_terms_amp_conditions"/>
 
     <Button
         android:id="@+id/button_submit"
@@ -48,10 +75,7 @@
         android:layout_height="wrap_content"
         android:text="@string/submit"
         android:onClick="submit"
-        app:layout_constraintBottom_toBottomOf="@id/button_no_thank_you"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/check_box" />
+        android:layout_gravity="center" />
 
     <Button
         android:id="@+id/button_no_thank_you"
@@ -59,23 +83,6 @@
         android:layout_height="wrap_content"
         android:text="@string/no_thank_you"
         android:onClick="finishActivity"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_submit" />
+        android:layout_gravity="center" />
 
-
-
-
-    <!--    <CheckBox-->
-<!--        android:id="@+id/check_box"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        app:layout_constraintBottom_toTopOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.498"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.431" />-->
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
