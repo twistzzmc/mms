@@ -17,4 +17,6 @@
     <string name="submit">Submit</string>
 
     <string name="hello_sign_up">Hello! Do you wish to Sign Up?</string>
+    <string name="ready_to_login">"Ready to login? "</string>
+    <string name="reset_password">Reset password</string>
 </resources>
