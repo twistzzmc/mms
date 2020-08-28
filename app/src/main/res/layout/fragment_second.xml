@@ -2,58 +2,107 @@
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_gravity="center_vertical"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize="20sp"
-        android:text="@string/ready_to_login" />
-
-    <EditText
-        android:id="@+id/et_user_name"
-        android:hint="User Name"
-        android:textColor="#6bfff7"
-        android:textColorHint="#52afaa"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <EditText
-        android:id="@+id/et_password"
-        android:hint="Password"
-        android:textColor="#6bfff7"
-        android:textColorHint="#52afaa"
-        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:background="@color/babyblue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/really_small_padding"
+            android:paddingTop="@dimen/small_padding"
+            android:paddingRight="@dimen/really_small_padding"
+            android:text="@string/welcome_user"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/star_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/yellow_star"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+
+        <ImageView
+            android:id="@+id/star_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/yellow_star"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+
+        <ImageView
+            android:id="@+id/star_image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/yellow_star"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+
+        <ImageView
+            android:id="@+id/empty_star_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/empty_star"
+            app:srcCompat="@android:drawable/btn_star_big_off" />
+
+        <ImageView
+            android:id="@+id/empty_star_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/empty_star"
+            app:srcCompat="@android:drawable/btn_star_big_off" />
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-
-    <TextView
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize="10sp"
-        android:text="@string/reset_password" />
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/first_login_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4sp"
+            android:paddingLeft="@dimen/big_padding"
+            android:paddingTop="@dimen/huge_padding"
+            android:paddingRight="@dimen/big_padding"
+            android:paddingBottom="@dimen/huge_padding"
+            android:text="@string/first_login_text"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/button_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/login" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
 
-    <Button
-        android:id="@+id/button_sign_up"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/sign_up" />
+        <Button
+            android:id="@+id/button_create_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_space_button" />
+
+        <Button
+            android:id="@+id/button_enter_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_space_button" />
+
+        <Button
+            android:id="@+id/button_app_overview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_overview_button" />
+    </LinearLayout>
 
 
 </LinearLayout>

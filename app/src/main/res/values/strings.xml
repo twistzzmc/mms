@@ -17,6 +17,12 @@
     <string name="submit">Submit</string>
 
     <string name="hello_sign_up">Hello! Do you wish to Sign Up?</string>
-    <string name="ready_to_login">"Ready to login? "</string>
+    <string name="welcome_user">"Mawieczo"</string>
     <string name="reset_password">Reset password</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="empty_star">Empty Star</string>
+    <string name="first_login_text">Witamy w MMs! To twoje pierwsze logowanie. Możesz utworzyć przestrzeń lub wejść do przestrzeni. Jeśli nie wiesz, co chcesz zrobić przejrzyj nasz samouczek! Piona!</string>
+    <string name="create_space_button">Create Space</string>
+    <string name="enter_space_button">Enter Space</string>
+    <string name="app_overview_button">App overview</string>
 </resources>
