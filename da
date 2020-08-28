@@ -1,0 +1,145 @@
+[33mcommit 65e9b23bd58ad30b9c94e57cc4219731336f22fe[m[33m ([m[1;36mHEAD -> [m[1;32miss553[m[33m)[m
+Merge: d8ca8f0 545827e
+Author: twistzzmc <michal.szczepaniak1999@gmail.com>
+Date:   Fri Aug 28 18:07:27 2020 +0200
+
+    minor
+
+[33mcommit d8ca8f07bb1e9da14d2092eec984ea6d8de48a5b[m
+Author: twistzzmc <michal.szczepaniak1999@gmail.com>
+Date:   Fri Aug 28 18:01:25 2020 +0200
+
+    minor
+
+[33mcommit 0e3bccb50a042da6e644cc70626e20fb0a26e639[m
+Merge: 55f0adc 7599089
+Author: twistzzmc <michal.szczepaniak1999@gmail.com>
+Date:   Fri Aug 28 17:56:20 2020 +0200
+
+    minor
+
+[33mcommit 545827e082983f3b32b9c6f5032c2a072bd0491c[m
+Merge: 7599089 253e4e5
+Author: twistzzmc <44765786+twistzzmc@users.noreply.github.com>
+Date:   Fri Aug 28 17:53:14 2020 +0200
+
+    Merge pull request #1 from twistzzmc/iss553
+    
+    login change
+
+[33mcommit 253e4e5c5de5b4f3e0ce86d3ce68cd8d0704f075[m
+Merge: 55f0adc 7599089
+Author: twistzzmc <44765786+twistzzmc@users.noreply.github.com>
+Date:   Fri Aug 28 17:52:07 2020 +0200
+
+    Merge branch 'master' into iss553
+
+[33mcommit 55f0adc8166e79aa5c0326324dd41dbe65bbfeba[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/iss553[m[33m, [m[1;32mmaster[m[33m)[m
+Author: twistzzmc <michal.szczepaniak1999@gmail.com>
+Date:   Fri Aug 28 17:41:31 2020 +0200
+
+    login change
+
+[33mcommit 7599089ed3fb1309046c4b8452f7556e1fb8dbd4[m
+Author: Magdalena Wieczorek <37899789+mawieczo@users.noreply.github.com>
+Date:   Fri Aug 28 15:40:03 2020 +0200
+
+    added after login view
+
+[33mcommit d183b93f88eb32178ece89d9628d2a9435b5bdcd[m
+Author: Magdalena Wieczorek <37899789+mawieczo@users.noreply.github.com>
+Date:   Fri Aug 28 13:39:18 2020 +0200
+
+    Updated login view
+
+[33mcommit 1b8874b78baf8207d0c6ccc0ebc3d178d0f3105c[m
+Author: twistzzmc <michal.szczepaniak1999@gmail.com>
+Date:   Thu Aug 27 00:58:54 2020 +0200
+
+    Login
+
+[33mcommit c96b6b5638e9fe53f27efa0cd5a8e699ee401c8b[m
+Author: twistzzmc <michal.szczepaniak1999@gmail.com>
+Date:   Wed Aug 26 23:35:11 2020 +0200
+
+    sign up fun
+
+[33mcommit b8ba8f92743c9de43e93dc86f82a3ae1dcdfefab[m
+Author: twistzzmc <michal.szczepaniak1999@gmail.com>
+Date:   Wed Aug 26 22:02:53 2020 +0200
+
+    first activity added
+
+[33mcommit d03747c3dbfa252b67aff322a0a19f8d005ecd22[m
+Merge: eadb836 6087be8
+Author: twistzzmc <michal.szczepaniak1999@gmail.com>
+Date:   Wed Aug 26 17:43:10 2020 +0200
+
+    Merge branch 'master' of https://github.com/twistzzmc/mms
+
+[33mcommit eadb83689b1d6240cf041fde9b8c94dae51114bd[m
+Author: twistzzmc <michal.szczepaniak1999@gmail.com>
+Date:   Wed Aug 26 17:42:41 2020 +0200
+
+    sign up
+
+[33mcommit 698d7d0466809f9dcca22088cc4c1195264fd921[m
+Author: twistzzmc <michal.szczepaniak1999@gmail.com>
+Date:   Wed Aug 26 17:09:47 2020 +0200
+
+    sign up
+
+[33mcommit f577c85e52d5f22d586860d34bd9f739b9d81b2e[m
+Merge: d446264 7638d4b
+Author: twistzzmc <michal.szczepaniak1999@gmail.com>
+Date:   Wed Aug 26 16:50:49 2020 +0200
+
+    Merge branch 'master' of https://github.com/twistzzmc/mms
+
+[33mcommit d44626422aae19cfee762b5fd650696c0aa28e6a[m
+Author: twistzzmc <michal.szczepaniak1999@gmail.com>
+Date:   Wed Aug 26 16:50:15 2020 +0200
+
+    changes
+
+[33mcommit 009c63c5da9d31d20b20698a14e095728bc59651[m
+Author: twistzzmc <michal.szczepaniak1999@gmail.com>
+Date:   Wed Aug 26 15:45:47 2020 +0200
+
+    fff
+
+[33mcommit 6087be8b2c535c788647347d3117ff3dad571043[m
+Author: Magdalena Wieczorek <37899789+mawieczo@users.noreply.github.com>
+Date:   Wed Aug 26 15:16:09 2020 +0200
+
+    new working greeting!
+
+[33mcommit fc32c160ab08391c1d2c21bcda412aaad2189c5c[m
+Author: Magdalena Wieczorek <37899789+mawieczo@users.noreply.github.com>
+Date:   Wed Aug 26 15:13:23 2020 +0200
+
+    new greeting, babe
+
+[33mcommit 7638d4b2a6c79fcdd81559b57ecc6b396d03aa84[m
+Author: Magdalena Wieczorek <37899789+mawieczo@users.noreply.github.com>
+Date:   Wed Aug 26 13:50:59 2020 +0200
+
+    ugly color to nice color change
+
+[33mcommit 434fb1347892b24976e7086a1ecb58fc6c077efd[m
+Author: Magdalena Wieczorek <37899789+mawieczo@users.noreply.github.com>
+Date:   Wed Aug 26 11:58:19 2020 +0200
+
+    red background
+
+[33mcommit 19037b5b74ca2524f1895acd9938b5c1fcd42f60[m
+Author: Magdalena Wieczorek <37899789+mawieczo@users.noreply.github.com>
+Date:   Wed Aug 26 11:42:06 2020 +0200
+
+    test commit
+
+[33mcommit bb18659bbcb0bfcc57ccd95e540a6ae53785fc09[m
+Author: twistzzmc <michal.szczepaniak1999@gmail.com>
+Date:   Tue Aug 25 01:08:05 2020 +0200
+
+    MMs be created
