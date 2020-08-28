@@ -1,9 +1,13 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+<!--<<<<<<< HEAD-->
 
     <dimen name="big_padding">16dp</dimen>
     <dimen name="small_padding">8dp</dimen>
     <dimen name="really_small_padding">4dp</dimen>
     <dimen name="huge_padding">60dp</dimen>
 
+<!--=======-->
+    <dimen name="login_bottom_margin">24dp</dimen>
+<!--&gt;>>>>>> 3a2b74282437448b028145b79364b0e272f200c6-->
 </resources>

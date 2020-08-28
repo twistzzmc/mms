@@ -30,7 +30,7 @@ class SignUpActivity : AppCompatActivity() {
     }
 
     fun submit(view: View) {
-        val login: TextView = findViewById(R.id.edit_text_enter_login_sign_up)
+        val login: TextView = findViewById(R.id.et_user_name)
         val login_text = login.text
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Androidly Alert")

@@ -25,4 +25,13 @@
     <string name="create_space_button">Create Space</string>
     <string name="enter_space_button">Enter Space</string>
     <string name="app_overview_button">App overview</string>
+
+    <string name="user_name_hint">User name</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="enter_email">Enter email address</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="agree_to_terms_amp_conditions"><![CDATA[Agree to Terms & Conditions]]></string>
+    <string name="ready_to_login">Hello! Ready to login?</string>
+    <!--&gt;>>>>>> 3a2b74282437448b028145b79364b0e272f200c6-->
 </resources>
