@@ -33,7 +33,8 @@ class MainActivity : AppCompatActivity() {
         val navController = this.findNavController(R.id.myNavHostFragment)
         NavigationUI.setupActionBarWithNavController(this,navController, drawerLayout)
         NavigationUI.setupWithNavController(binding.navView, navController)
-
+        //TODO make hamburger button working for drawer navigation bar, not only slide from left to right
+        //TODO make upper and lower back buttons working
     }
 
     override fun onSupportNavigateUp(): Boolean {
