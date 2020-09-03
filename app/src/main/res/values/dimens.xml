@@ -9,5 +9,6 @@
 
 <!--=======-->
     <dimen name="login_bottom_margin">24dp</dimen>
-<!--&gt;>>>>>> 3a2b74282437448b028145b79364b0e272f200c6-->
+    <dimen name="horizontal_margin">8dp</dimen>
+    <!--&gt;>>>>>> 3a2b74282437448b028145b79364b0e272f200c6-->
 </resources>

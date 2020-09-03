@@ -31,7 +31,16 @@
 
 
     </fragment>
-<!--    <fragment-->
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.mms.mms.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.mms.mms.SettingsFragment"
+        android:label="SettingsFragment" />
+    <!--    <fragment-->
 <!--        android:id="@+id/SignUpFragment"-->
 <!--        android:name="com.mms.mms.SignUpFragment"-->
 <!--        android:label="Sign Up Fragment"-->
